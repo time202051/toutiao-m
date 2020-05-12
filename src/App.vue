@@ -1,15 +1,20 @@
 <template>
   <div id="app">
-
-    <router-view/>
+    <router-view />
+    <h3>李佳鹏</h3>
+    <i class="toutiaoa toutiao-shoucang"></i>
+    <van-button type="default">默认按钮</van-button>
+    <van-button type="primary">主要按钮</van-button>
+    <van-button type="info">信息按钮</van-button>
+    <van-button type="warning">警告按钮</van-button>
+    <van-button type="danger">危险按钮</van-button>
   </div>
 </template>
 <script>
 export default {
-  
-}
-</script>>
+  name: "App",
+};
+</script>
+>
 
-<style lang="less">
-
-</style>
+<style lang="less"></style>
